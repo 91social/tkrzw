@@ -59,7 +59,7 @@ static int32_t ProcessConfig(int32_t argc, const char** args) {
     PrintF("PACKAGE_VERSION: %s\n", PACKAGE_VERSION);
     PrintF("LIBRARY_VERSION: %s\n", LIBRARY_VERSION);
     PrintF("OS_NAME: %s\n", OS_NAME);
-    PrintF("IS_BIG_ENDIAN: %d\n", IS_BIG_ENDIAN);
+    PrintF("TKRZW__IS_BIG_ENDIANE: %d\n", TKRZW__IS_BIG_ENDIANE);
     PrintF("PAGE_SIZE: %d\n", PAGE_SIZE);
     PrintF("TYPES: void*=%d short=%d int=%d long=%d long_long=%d size_t=%d"
            " float=%d double=%d long_double=%d\n",
@@ -86,7 +86,7 @@ static int32_t ProcessConfig(int32_t argc, const char** args) {
 // Prints the version information.
 void PrintVersion() {
   PrintF("Tkrzw %s (library %s) on %s (%s endian)\n",
-         PACKAGE_VERSION, LIBRARY_VERSION, OS_NAME, IS_BIG_ENDIAN ? "big" : "little");
+         PACKAGE_VERSION, LIBRARY_VERSION, OS_NAME, TKRZW__IS_BIG_ENDIANE ? "big" : "little");
 }
 
 }  // namespace tkrzw

@@ -127,7 +127,7 @@ TEST(LibCommonTest, Constants) {
 TEST(LibCommonTest, ByteOrder) {
   const uint32_t num = 0xDEADBEAF;
   const uint8_t* const bytes = reinterpret_cast<const uint8_t*>(&num);
-  if (tkrzw::IS_BIG_ENDIAN) {
+  if (tkrzw::TKRZW__IS_BIG_ENDIANE) {
     EXPECT_EQ(0xDE, bytes[0]);
     EXPECT_EQ(0xAD, bytes[1]);
     EXPECT_EQ(0xBE, bytes[2]);

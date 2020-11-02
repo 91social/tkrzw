@@ -101,7 +101,7 @@ extern const char* const LIBRARY_VERSION;
 extern const char* const OS_NAME;
 
 /** True if the byte order is big endian. */
-extern const bool IS_BIG_ENDIAN;
+extern const bool TKRZW__IS_BIG_ENDIANE;
 
 /**
  * Status of operations.

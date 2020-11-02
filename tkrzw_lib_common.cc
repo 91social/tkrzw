@@ -24,7 +24,7 @@ const char* const LIBRARY_VERSION = _TKRZW_LIB_VERSION;;
 
 const char* const OS_NAME = _TKRZW_OSNAME;
 
-const bool IS_BIG_ENDIAN = _IS_BIG_ENDIAN;
+const bool TKRZW__IS_BIG_ENDIANE = _IS_BIG_ENDIAN;
 
 const Status& Status::OrDie() const {
   if (code_ != SUCCESS) {
